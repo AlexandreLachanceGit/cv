@@ -12,7 +12,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{titlesec}
 \RequirePackage{tikz}
-\RequirePackage[left=0.5in,top=0.1in,right=0.5in,bottom=0.1in]{geometry} % DOCUMENT MARGINS 
+\RequirePackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % DOCUMENT MARGINS 
 \RequirePackage{hyperref}
 \RequirePackage{fontawesome}
 \RequirePackage{mfirstuc}
