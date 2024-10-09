@@ -19,6 +19,7 @@
 \RequirePackage{ifthen}
 \RequirePackage{lipsum}
 \RequirePackage{array}
+\RequirePackage[T1]{fontenc}
 \pagestyle{empty}
 
 \usepackage{comment}
@@ -122,5 +123,8 @@
 	}
 }
 
-
+\newcommand{\publication}[4]{%
+	\begin{small} \mbox { \hspace{1em} \textbf{#1} } \end{small} \hfill \datetextbold{#2}\\[0.01cm] %
+	\mbox { \hspace{1.2em} \footnotesize \emph{#3}} \hfill \datetext{\textbf{DOI:} #4}\\[0.01cm] %
+}
 

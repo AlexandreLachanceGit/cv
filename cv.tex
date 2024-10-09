@@ -1,7 +1,7 @@
 \documentclass{muratcan_cv}
 
 \setname{Alexandre Lachance}{}
-\setaddress{Québec City, Québec, Canada}
+\setaddress{Quebec City, Quebec, Canada}
 \setmobile{+1 514-550-6196}
 \setmail{alexandrelachance@me.com}
 \setthemecolor{Black}
@@ -24,16 +24,16 @@
 \datedexperience{Diploma of College Studies (DCS) in Computer Science and Mathematics}{Sep 2018 – May 2020}
 \explanation{Lionel-Groulx College}{Sainte-Thérèse, QC}
 
-% \section{Skills \& Interests}
-% \smallskip
-% \newcommand{\skillone}{\createskill{Programming Languages}{Python \cpshalf Rust \cpshalf Java \cpshalf C \cpshalf JavaScript \cpshalf TypeScript \cpshalf C\#}}
-% %
-% \newcommand{\skilltwo}{\createskill{Technologies}{Docker \cpshalf MongoDB \cpshalf Angular \cpshalf Flask \cpshalf Linux \cpshalf Git \cpshalf AWS}}
-% %
-% \newcommand{\skillthree}{\createskill{Interests}{Programming Languages \cpshalf Software Architecture \cpshalf Cybersecurity}}
-% %
-% \createskills{\skillone, \skilltwo, \skillthree}
-% \vspace{-3mm} % reduces whitespace!
+\section{Skills \& Interests}
+\smallskip
+\newcommand{\skillone}{\createskill{Programming Languages}{Rust \cpshalf Python \cpshalf Java \cpshalf C \cpshalf TypeScript \cpshalf C\#}}
+%
+\newcommand{\skilltwo}{\createskill{Technologies}{Linux \cpshalf Git \cpshalf GitHub CI/CD \cpshalf Docker \cpshalf AWS \cpshalf MPS \cpshalf Langium}}
+%
+\newcommand{\skillthree}{\createskill{Interests}{Software Architecture \cpshalf Programming Languages \cpshalf Generative Programming}}
+%
+\createskills{\skillone, \skilltwo, \skillthree}
+\vspace{-3mm} % reduces whitespace!
 
 \section{Experience \& Projects}
 \datedexperience{Master's Thesis | Development of Lever: A Framework for DSL Editor Support}{Jan 2023 – Present}
@@ -80,7 +80,7 @@
 	Conducted labs, marked assignments, and provided one-on-one support during office hours.
 }
 %
-\datedexperience{Research Assistant | Full-Stack Research Platform Development}{Jan 2022 - Jan 2023}
+\datedexperience{Research Assistant | Full-Stack Research Platform Development}{Jan 2022 – Jan 2023}
 \explanation{University of Quebec in Montreal | Supervised by \href{https://mosser.github.io/}{Sébastien Mosser}}{Montreal, QC}
 \explanationdetail{
 	\smallskip
@@ -120,7 +120,7 @@
 	Collaborated closely with Radio-Canada / CBC on practical applications of text simplification.
 }
 %
-\datedexperience{Program Instructor / Tutor}{Jan 2022 - Apr 2022}
+\datedexperience{Program Instructor / Tutor}{Jan 2022 – Apr 2022}
 \explanation{University of Quebec in Montreal}{Montreal, QC}
 \explanationdetail{
 	\smallskip
@@ -133,51 +133,77 @@
 	\smallskip
 }
 %
-\datedexperience{DEC Final Project | Virtual Reality Game}{Sep 2020 - Dec 2020}
+\datedexperience{DEC Final Project | Virtual Reality Game}{Sep 2020 – Dec 2020}
 \explanation{Lionel-Groulx College}{Sainte-Thérèse, QC}
 \explanationdetail{
 	\smallskip
 	\coloredbullet\ %
-	Built a Virtual Reality Game, in Unity (C\#), with a procedurally generated map and combat physics.
+	Built a Virtual Reality game in Unity (C\#), focusing on immersive gameplay and interaction.
+
+	\smallskip
+	\coloredbullet\ %
+	Implemented procedurally generated maps and combat physics.
 }
-\smallskip
+\pagebreak
+%
+\section{Publications}
+%
+\publication{Building Deduplicated Model Repositories to Assess Domain-Specific Languages Evolution}{Sep 2024}{\textbf{Alexandre Lachance}, Sébastien Mosser}{\href{https://doi.org/10.1145/3652620.3688338}{10.1145/3652620.3688338}}
+\explanationdetail{
+	\smallskip
+	\coloredbullet\ %
+	Developed a deduplication framework for model repositories to support DSL evolution analysis.
+
+	\smallskip
+	\coloredbullet\ %
+	Applied repository mining techniques to build a dataset and identify duplicates across multiple forges.
+
+	\smallskip
+	\coloredbullet\ %
+	Validated the framework by testing DSL tools for compatibility with evolving models.
+
+	\smallskip
+	\coloredbullet\ %
+	Demonstrated the approach's effectiveness in reducing computational complexity for deduplication.
+}
+%
+\publication{Automatic Text Simplification of News Articles in the Context of Public Broadcasting}{Dec 2022}{Diego Maupomé, Fanny Rancourt, Thomas Soulas, \textbf{Alexandre Lachance}, \emph{et al.}}{\href{https://arxiv.org/abs/2212.13317}{10.48550/arXiv.2212.13317}}
+\explanationdetail{
+	\smallskip
+	\coloredbullet\ %
+	Explored automatic text simplification to improve accessibility for CBC/Radio-Canada news articles.
+
+	\smallskip
+	\coloredbullet\ %
+	Compared modular lexical systems with end-to-end deep learning methods for simplification.
+
+	\smallskip
+	\coloredbullet\ %
+	Evaluated automatic text simplification using both manual and automatic methods to assess performance.
+
+	\smallskip
+	\coloredbullet\ %
+	Achieved promising results with paraphrase-based models on sentence simplification tasks.
+}
+\vspace{0.5em}
 %
 \section{Presentations}
 %
 \datedexperience{Building Deduplicated Model Repositories to Assess Domain-Specific Languages Evolution}{Sep 2024}
 \explanation{Models and Evolution Workshop, Models 2024}{Linz, Austria}
-% \explanationdetail{
-% 	\smallskip
-% 	\coloredbullet\ %
-% 	Presented a method for building deduplicated model repositories to analyze the evolution of DSLs.
-% }
 %
 \datedexperience{From Zero to VS Code: A Framework Approach to Language Support}{Nov 2023}
 \explanation{MDENet Research Demonstration}{Online}
-% \explanationdetail{
-% 	\smallskip
-% 	\coloredbullet\ %
-% 	Demonstrated a framework for building VS Code support for domain-specific languages, showcasing its application to P4.
-% }
 %
 \datedexperience{Developing a Modular Language Server to Support P4 Developers}{Sep 2023}
 \explanation{P4 Developers Days Meeting}{Online}
-% \explanationdetail{
-% 	\smallskip
-% 	\coloredbullet\ %
-% 	Demonstrated the design and implementation of a modular language server to improve P4 development workflows.
-% }
 %
 \datedexperience{A Language Engineering Approach to Support the P4 Coding Ecosystem}{Apr 2023}
 \explanation{P4 Workshop at Intel HQ}{San Francisco, USA}
-% \explanationdetail{
-% 	\smallskip
-% 	\coloredbullet\ %
-% 	Presented research on the development of tooling to support the P4 DSL using a language engineering approach.
-% }
+%
 \section{Extracurricular Activities}
-\datedexperience{Executive Secretary, Students Association}{Jun 2022 – Dec 2022}
-\explanation{\href{https://ageei.org/}{AGEEI} – General Association of Computer Science Students, University of Quebec in Montreal}{Montreal, QC}
+\datedexperience{Executive Secretary | Students Association}{Jun 2022 – Dec 2022}
+\explanation{\href{https://ageei.org/}{AGEEI} | General Association of Computer Science Students, University of Quebec in Montreal}{Montreal, QC}
 \explanationdetail{
 	\smallskip
 	\coloredbullet\ %
@@ -209,12 +235,12 @@
 
 % 
 \smallskip
-%
-% \section{Achievements}
-% \indent
-% \explanationdetail{
-% 	\smallskip
-% 	\coloredbullet\ %
-% 	\textbf{Scholarship of Excellence} granted by the government of Québec in 2021.
-% }
+
+\section{Other Achievements}
+\indent
+\explanationdetail{
+	\smallskip
+	\coloredbullet\ %
+	\textbf{Scholarship of Excellence} granted by the government of Quebec in 2021.
+}
 \end{document}
